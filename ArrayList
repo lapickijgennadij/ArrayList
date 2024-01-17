@@ -1,0 +1,4 @@
+public class DurakGame {
+    public static void main(String[] args) {
+        ArrayList<Card> deck = initializeDeck();
+        ArrayList<Card> playerHand = new ArrayList<>(deck.subList(0, 6));
